@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+body{
+    margin: 0 50px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+.app{
+    background-color: #d7edff;
+    height:  100px auto;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 15px;
+}
+#addNew{
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d7edff;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 6px 3px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#add{
+    background-color: #d7edff;
+    color: #000;
+    border: none;
+    outline: none;
+}
+#cancel{
+    background-color: blue;
+    color: aqua;
+    border: none;
+    outline: none;
+}
+#msg{
+    color: red;
+    font-size: 12px;
+  padding-left: 2px;
+}
+
+#tasks{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+}
+#tasks div{
+    border: 1px solid #031524;
+    background-color: #a6b1b9;
+    border-radius: 5px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+}
+
+#tasks div .options{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+ 
+}
+
+#tasks div .options i{
+    cursor: pointer;
+}
